@@ -177,3 +177,75 @@ To gain the maximum benefit from this course, learners should have:
 Learners without a Machine Learning background can still complete most of the course. However, reviewing introductory ML concepts before studying the later modules on deep learning and Transformers is recommended.
 
 ---
+
+---
+
+# Course Curriculum
+
+The course is organized into ten progressive modules, guiding learners from the fundamentals of Natural Language Processing to modern Large Language Models and advanced NLP applications.
+
+| Module | Title | Topics Covered |
+|---------|-------|----------------|
+| **Module 1** | Foundations of Natural Language Processing | Introduction to NLP, history, applications, NLP pipeline, Python ecosystem |
+| **Module 2** | Linguistic Foundations | Morphology, syntax, semantics, pragmatics, discourse, linguistic resources |
+| **Module 3** | Classical Natural Language Processing | Text preprocessing, tokenization, stemming, lemmatization, Bag-of-Words, TF-IDF, N-grams, text classification |
+| **Module 4** | Word Representations | Word embeddings, Word2Vec, GloVe, FastText, contextual embeddings |
+| **Module 5** | Deep Learning for NLP | Neural language models, RNN, LSTM, GRU, sequence-to-sequence models, attention mechanisms |
+| **Module 6** | Transformer Architectures | Self-attention, positional encoding, encoder-decoder architecture, BERT, GPT, T5 |
+| **Module 7** | Hugging Face Ecosystem | Transformers library, Datasets, Tokenizers, Pipelines, fine-tuning, model deployment |
+| **Module 8** | Large Language Models | Prompt engineering, instruction tuning, parameter-efficient fine-tuning (PEFT), Retrieval-Augmented Generation (RAG), AI safety and evaluation |
+| **Module 9** | Machine Translation | Statistical MT, Neural MT, multilingual models, translation evaluation metrics, practical translation systems |
+| **Module 10** | Advanced NLP Applications | Information extraction, summarization, question answering, conversational AI, multimodal NLP, deployment, and current research trends |
+
+---
+
+# Learning Roadmap
+
+The curriculum follows a progressive learning path in which each module builds upon the knowledge acquired in the previous one.
+
+```text
+Python Programming
+        │
+        ▼
+Foundations of NLP
+        │
+        ▼
+Linguistic Foundations
+        │
+        ▼
+Classical NLP
+        │
+        ▼
+Word Embeddings
+        │
+        ▼
+Deep Learning
+        │
+        ▼
+Transformers
+        │
+        ▼
+Hugging Face Ecosystem
+        │
+        ▼
+Large Language Models
+        │
+        ▼
+Machine Translation
+        │
+        ▼
+Advanced NLP Applications
+```
+
+Each module contains:
+
+-  Conceptual explanations
+-  Mathematical foundations (where appropriate)
+-  Executable Python implementations
+-  Visualizations and examples
+-  Real-world case studies
+-  Exercises
+-  Challenge exercises
+-  Further reading and references
+
+By the end of the course, learners will have developed both the theoretical understanding and practical experience required to design, implement, evaluate, and deploy modern Natural Language Processing systems.

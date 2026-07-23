@@ -7,7 +7,32 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ---
+## Table of Contents
 
+- [Course Overview](#course-overview)
+- [Why This Course?](#why-this-course)
+- [Course Philosophy](#course-philosophy)
+- [Course Features](#course-features)
+- [Learning Outcomes](#learning-outcomes)
+- [Target Audience](#target-audience)
+- [Prerequisites](#prerequisites)
+- [Course Curriculum](#course-curriculum)
+- [Learning Roadmap](#learning-roadmap)
+- [Repository Structure](#repository-structure)
+- [Installation](#installation)
+- [Recommended Environment](#recommended-environment)
+- [Required Python Libraries](#required-python-libraries)
+- [How to Use This Course](#how-to-use-this-course)
+- [Course Projects](#course-projects)
+- [Contributing](#contributing)
+- [References](#references)
+- [Citation](#citation)
+- [License](#license)
+- [Roadmap](#roadmap)
+- [Acknowledgments](#acknowledgments)
+- [Support the Project](#-support-the-project)
+
+---
 ## Course Overview
 
 Natural Language Processing (NLP) is one of the most rapidly evolving fields of Artificial Intelligence, enabling computers to understand, interpret, generate, and interact with human language. Modern NLP powers technologies that millions of people use every day, including machine translation, search engines, intelligent assistants, conversational AI, document analysis, sentiment analysis, question answering, speech interfaces, and Large Language Models (LLMs).
@@ -249,3 +274,271 @@ Each module contains:
 -  Further reading and references
 
 By the end of the course, learners will have developed both the theoretical understanding and practical experience required to design, implement, evaluate, and deploy modern Natural Language Processing systems.
+
+---
+
+# Repository Structure
+
+The repository is organized to provide a clean, modular, and scalable learning experience.
+
+```text
+Natural-Language-Processing-Course/
+│
+├── notebooks/
+│   ├── Module_01_Foundations/
+│   ├── Module_02_Linguistic_Foundations/
+│   ├── Module_03_Classical_NLP/
+│   ├── Module_04_Word_Representations/
+│   ├── Module_05_Deep_Learning/
+│   ├── Module_06_Transformers/
+│   ├── Module_07_Hugging_Face/
+│   ├── Module_08_Large_Language_Models/
+│   ├── Module_09_Machine_Translation/
+│   └── Module_10_Advanced_Applications/
+│
+├── datasets/
+│   ├── raw/
+│   ├── processed/
+│   └── external/
+│
+├── figures/
+│
+├── assets/
+│
+├── projects/
+│
+├── solutions/
+│
+├── requirements.txt
+├── LICENSE
+├── README.md
+└── .gitignore
+```
+
+Each module contains lecture notebooks, exercises, and supporting materials. Additional resources such as datasets, figures, and project files are organized separately to maintain a clean and scalable repository structure.
+
+---
+
+# Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/Natural-Language-Processing-Course.git
+
+cd Natural-Language-Processing-Course
+```
+
+Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+or launch JupyterLab:
+
+```bash
+jupyter lab
+```
+
+---
+
+# Recommended Environment
+
+The course has been developed using modern Python tools and is compatible with Windows, Linux, and macOS.
+
+### Recommended Software
+
+- Python 3.10 or later
+- Jupyter Notebook or JupyterLab
+- Visual Studio Code (recommended)
+- Git
+- GitHub
+
+### Recommended Hardware
+
+Minimum:
+
+- Dual-core CPU
+- 8 GB RAM
+
+Recommended:
+
+- Quad-core CPU or better
+- 16 GB RAM
+- NVIDIA GPU (optional for deep learning modules)
+
+---
+
+# Required Python Libraries
+
+The course primarily relies on the following libraries:
+
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- NLTK
+- spaCy
+- PyTorch
+- Hugging Face Transformers
+- Datasets
+- Tokenizers
+- Sentence Transformers
+- Evaluate
+- Accelerate
+- PEFT
+- Jupyter Notebook
+
+Additional libraries may be introduced in specific modules as needed.
+
+---
+
+# How to Use This Course
+
+The course is designed to be completed sequentially, with each module building on concepts introduced earlier.
+
+For every lesson, learners are encouraged to:
+
+1. Read the theoretical explanation.
+2. Study the accompanying visualizations.
+3. Execute each notebook cell.
+4. Experiment with the provided examples.
+5. Complete the exercises.
+6. Attempt the challenge problems.
+7. Explore the recommended references before moving to the next lesson.
+
+Although learners may focus on specific topics of interest, following the recommended module order provides the strongest conceptual foundation.
+
+---
+
+# Course Projects
+
+Throughout the course, learners will apply the acquired knowledge by developing practical NLP systems of increasing complexity. These projects are designed to reinforce theoretical concepts while providing hands-on experience with real-world Natural Language Processing applications.
+
+Example projects include:
+
+- Text preprocessing pipeline
+- Spam email classifier
+- Sentiment analysis system
+- Named Entity Recognition (NER)
+- Text summarization
+- Question answering
+- Machine translation
+- Semantic similarity analysis
+- Document classification
+- Conversational AI chatbot
+- Retrieval-Augmented Generation (RAG) application
+- Large Language Model (LLM) fine-tuning
+
+Additional capstone projects will be introduced throughout the course.
+
+---
+
+# Contributing
+
+Contributions are welcome and appreciated.
+
+If you would like to improve the course by fixing errors, enhancing explanations, adding examples, improving notebooks, or contributing new educational content, please feel free to:
+
+1. Fork the repository.
+2. Create a new feature branch.
+3. Commit your changes.
+4. Submit a Pull Request.
+
+Please ensure that contributions maintain the educational focus, coding style, and overall quality of the course.
+
+---
+
+# References
+
+The course draws upon established textbooks, research publications, official documentation, and educational resources, including but not limited to:
+
+- Jurafsky, D., & Martin, J. H. *Speech and Language Processing*.
+- Eisenstein, J. *Introduction to Natural Language Processing*.
+- Manning, C. D., Schütze, H. *Foundations of Statistical Natural Language Processing*.
+- Goodfellow, I., Bengio, Y., & Courville, A. *Deep Learning*.
+- Vaswani, A., et al. *Attention Is All You Need*.
+- Official documentation for PyTorch, Hugging Face Transformers, spaCy, NLTK, and Scikit-learn.
+
+Additional references are provided throughout individual modules.
+
+---
+
+# Citation
+
+If you use this repository in your research, teaching, or educational materials, please consider citing it.
+
+```bibtex
+@misc{Khater2026NLP,
+  author       = {Eman Khater},
+  title        = {Natural Language Processing: From Foundations to Large Language Models},
+  year         = {2026},
+  publisher    = {GitHub},
+  howpublished = {\url{https://github.com/emansafwatm/Natural-Language-Processing-Course}}
+}
+```
+
+---
+
+# License
+
+This project is released under the MIT License.
+
+You are free to use, modify, and distribute the course materials for educational and research purposes in accordance with the terms of the license.
+
+---
+
+# Roadmap
+
+The course will continue to evolve with new modules, notebooks, projects, and examples.
+
+Planned future additions include:
+
+- Advanced Retrieval-Augmented Generation (RAG)
+- AI Agents and Tool Use
+- Multimodal Large Language Models
+- Knowledge Graphs for NLP
+- Speech Processing
+- Model Compression and Quantization
+- Efficient LLM Inference
+- Distributed Training
+- AI Safety and Alignment
+- Evaluation Benchmarks for Foundation Models
+
+---
+
+# Acknowledgments
+
+This course has been developed as an open educational resource to support students, educators, researchers, and practitioners interested in Natural Language Processing and Artificial Intelligence.
+
+Special thanks to the open-source community and the developers of the Python ecosystem, whose libraries, frameworks, datasets, and research contributions have made modern NLP education and innovation widely accessible.
+
+---
+
+##  Support the Project
+
+If you find this repository useful, please consider:
+
+-   Starring the repository
+-  Forking the project
+-   Reporting issues
+-   Suggesting improvements
+-   Contributing new educational content
+
+Your support helps improve the course and makes high-quality NLP education more accessible to the community.
+
+---
+
+# Happy Learning!
+
+*"The limits of my language mean the limits of my world."*  
+— **Ludwig Wittgenstein**
+
+We hope this course inspires you to explore, build, and innovate in the exciting field of Natural Language Processing.

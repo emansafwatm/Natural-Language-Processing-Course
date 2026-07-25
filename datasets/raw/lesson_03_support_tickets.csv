@@ -1,0 +1,35 @@
+ticket_id,text,label,channel,language,created_at
+T001,I forgot my password and cannot sign in to my account.,account,email,en,2026-01-03
+T002,My account was locked after several login attempts.,account,web,en,2026-01-04
+T003,Please change the email address connected to my profile.,account,chat,en,2026-01-05
+T004,The verification link for my new account has expired.,account,email,en,2026-01-06
+T005,I am not receiving the two factor authentication code.,account,mobile,en,2026-01-07
+T006,How can I update the username shown on my account?,account,web,en,2026-01-08
+T007,My profile changes are not being saved.,account,chat,en,2026-01-09
+T008,I noticed a suspicious login and want to secure my account.,account,email,en,2026-01-10
+T009,I was charged twice for the same monthly subscription.,billing,email,en,2026-01-11
+T010,Where can I download the invoice for my payment?,billing,web,en,2026-01-12
+T011,My refund has not appeared on my card yet.,billing,chat,en,2026-01-13
+T012,The subscription payment failed even though my card is valid.,billing,mobile,en,2026-01-14
+T013,My credit card is declined whenever I try to upgrade.,billing,web,en,2026-01-15
+T014,Can you explain the difference between the pricing plans?,billing,chat,en,2026-01-16
+T015,I need a VAT receipt for the last payment.,billing,email,en,2026-01-17
+T016,I cancelled the service but another charge was taken.,billing,email,en,2026-01-18
+T017,The desktop application crashes when I open a document.,technical,web,en,2026-01-19
+T018,The website displays an error 500 after I submit the form.,technical,web,en,2026-01-20
+T019,File upload stops at ninety percent and never completes.,technical,chat,en,2026-01-21
+T020,The dashboard is extremely slow after the latest update.,technical,email,en,2026-01-22
+T021,The mobile application freezes on the startup screen.,technical,mobile,en,2026-01-23
+T022,Our integration is no longer synchronizing new records.,technical,email,en,2026-01-24
+T023,Notifications are enabled but no alerts are delivered.,technical,mobile,en,2026-01-25
+T024,The exported report is blank even though data is visible.,technical,web,en,2026-01-26
+T025,My order is delayed and has not arrived on the expected date.,delivery,email,en,2026-01-27
+T026,The package tracking page has not updated for three days.,delivery,web,en,2026-01-28
+T027,I entered the wrong delivery address for my order.,delivery,chat,en,2026-01-29
+T028,The courier says the package is missing in transit.,delivery,email,en,2026-01-30
+T029,My package arrived damaged and the box was open.,delivery,mobile,en,2026-01-31
+T030,Can I reschedule the delivery for another day?,delivery,chat,en,2026-02-01
+T031,The order is marked delivered but I did not receive it.,delivery,email,en,2026-02-02
+T032,How long does standard shipping normally take?,delivery,web,en,2026-02-03
+T033,I was charged twice for the same monthly subscription.,billing,chat,en,2026-02-04
+T034,The package tracking page has not updated for three days.,delivery,,en,2026-02-05

@@ -7,3 +7,5 @@ venv/
 # Jupyter checkpoints
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
+
+notebooks/Module_03_Classical_NLP/lesson_20_outputs/

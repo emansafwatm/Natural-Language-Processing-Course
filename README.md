@@ -1,321 +1,327 @@
 # Natural Language Processing: From Foundations to Large Language Models
 
-> **Master Natural Language Processing—from linguistic foundations and classical machine learning to Transformers, Large Language Models (LLMs), and real-world NLP applications through executable Python notebooks.**
+> A complete, university-level Natural Language Processing course covering linguistic foundations, classical NLP, neural networks, Transformers, Hugging Face, Large Language Models, machine translation, advanced NLP applications, and end-to-end intelligent systems through executable Jupyter notebooks.
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+**Author:** Eman Khater  
+**Course status:** Complete  
+**Structure:** 10 modules · 62 sequential lessons · Jupyter notebooks  
+**License:** MIT
 
 ---
+
 ## Table of Contents
 
 - [Course Overview](#course-overview)
+- [Course Status](#course-status)
 - [Why This Course?](#why-this-course)
-- [Course Philosophy](#course-philosophy)
-- [Course Features](#course-features)
 - [Learning Outcomes](#learning-outcomes)
 - [Target Audience](#target-audience)
 - [Prerequisites](#prerequisites)
 - [Course Curriculum](#course-curriculum)
-- [Learning Roadmap](#learning-roadmap)
+- [Complete 62-Lesson Index](#complete-62-lesson-index)
 - [Repository Structure](#repository-structure)
 - [Installation](#installation)
 - [Recommended Environment](#recommended-environment)
-- [Required Python Libraries](#required-python-libraries)
+- [Dependencies and Model Downloads](#dependencies-and-model-downloads)
 - [How to Use This Course](#how-to-use-this-course)
-- [Course Projects](#course-projects)
+- [Course Projects and Capstones](#course-projects-and-capstones)
+- [Reproducibility and Execution Notes](#reproducibility-and-execution-notes)
 - [Contributing](#contributing)
 - [References](#references)
 - [Citation](#citation)
 - [License](#license)
-- [Roadmap](#roadmap)
+- [Possible Future Extensions](#possible-future-extensions)
 - [Acknowledgments](#acknowledgments)
-- [Support the Project](#-support-the-project)
 
 ---
+
 ## Course Overview
 
-Natural Language Processing (NLP) is one of the most rapidly evolving fields of Artificial Intelligence, enabling computers to understand, interpret, generate, and interact with human language. Modern NLP powers technologies that millions of people use every day, including machine translation, search engines, intelligent assistants, conversational AI, document analysis, sentiment analysis, question answering, speech interfaces, and Large Language Models (LLMs).
+Natural Language Processing (NLP) enables computers to process, analyze, understand, and generate human language. Modern NLP supports applications such as search, machine translation, question answering, summarization, conversational AI, information retrieval, document intelligence, and Large Language Models (LLMs).
 
-This repository provides a comprehensive, university-level course that follows the complete evolution of NLP—from its linguistic and statistical foundations to deep learning, Transformer architectures, and modern Large Language Models. Rather than focusing on a single framework or model family, the course presents NLP as a coherent learning journey, showing how each generation of techniques builds upon the previous one.
+This repository provides a structured learning path from foundational linguistic and statistical concepts to neural sequence models, Transformers, pretrained models, Retrieval-Augmented Generation (RAG), LLM applications, machine translation, multimodal NLP, and end-to-end intelligent document systems.
 
-The course combines theoretical foundations, intuitive explanations, mathematical concepts where appropriate, practical Python implementations, and real-world case studies. Every lesson is designed to be fully executable, professionally documented, and suitable for classroom teaching, independent learning, and professional development.
+The course emphasizes both **conceptual understanding** and **implementation**. Lessons combine theory, mathematical intuition where appropriate, executable Python, evaluation, error analysis, multilingual considerations, knowledge checks, and unsolved exercises.
 
-Whether you are beginning your NLP journey or expanding your expertise with modern language models, this course provides the knowledge and practical skills needed to understand, build, and evaluate state-of-the-art NLP systems.
+---
+
+## Course Status
+
+**The main course sequence is complete.**
+
+- **10 modules**
+- **62 sequential lessons**
+- Foundations through advanced applications
+- Multiple end-to-end capstones
+- CPU-friendly core demonstrations where practical
+- Optional pretrained-model extensions for advanced workflows
+- Multilingual examples, including Arabic-focused material
+
+The final lesson is an end-to-end **Intelligent Document Assistant Capstone** integrating retrieval, question answering, summarization, multimodal reasoning, evaluation, grounding, and deployment design.
 
 ---
 
 ## Why This Course?
 
-Many NLP tutorials focus on individual libraries, isolated algorithms, or specific deep learning models. While these resources are valuable, they often make it difficult to understand how the field evolved or how different techniques relate to one another.
+Many NLP resources teach individual techniques or libraries in isolation. This course instead presents NLP as a connected progression:
 
-This course adopts a structured, end-to-end approach that connects foundational concepts with modern AI systems.
+```text
+Linguistic Foundations
+        ↓
+Classical NLP
+        ↓
+Word Representations
+        ↓
+Neural Sequence Models
+        ↓
+Attention and Transformers
+        ↓
+Pretrained Models and Hugging Face
+        ↓
+Large Language Models and RAG
+        ↓
+Machine Translation
+        ↓
+Advanced NLP Applications
+        ↓
+Integrated Intelligent NLP Systems
+```
 
-By following the curriculum, learners will progress through:
-
-- Linguistic foundations of human language.
-- Classical Natural Language Processing techniques.
-- Statistical and machine learning approaches.
-- Word representations and embeddings.
-- Deep learning for language processing.
-- Transformer architectures.
-- The Hugging Face ecosystem.
-- Large Language Models (LLMs).
-- Machine Translation.
-- Modern NLP applications and research directions.
-
-The emphasis is not only on **how** modern NLP systems work, but also on **why** they were developed and **when** each technique should be applied.
-
----
-
-## Course Philosophy
-
-The course is built around four core principles:
-
-### Strong Foundations
-
-Develop a solid understanding of linguistic, statistical, and computational principles before studying advanced neural architectures.
-
-### Learning by Implementation
-
-Every important concept is reinforced through executable Python notebooks, practical examples, and hands-on exercises.
-
-### From Fundamentals to Modern AI
-
-The curriculum progresses naturally from rule-based systems and classical machine learning to Transformers, Large Language Models, Retrieval-Augmented Generation (RAG), and modern NLP applications.
-
-### Research and Industry Relevance
-
-Each module connects academic concepts with current research trends and real-world applications used in industry, helping learners bridge the gap between theory and practice.
-
-## Course Features
-
-This course is designed to provide a complete and modern learning experience in Natural Language Processing through a carefully structured combination of theory, implementation, and practical applications.
-
-### What Makes This Course Different?
-
--  Comprehensive coverage from classical NLP to Large Language Models (LLMs).
--  Fully executable Jupyter notebooks using modern Python libraries.
--  Intuitive explanations supported by mathematical foundations where appropriate.
--  Research-oriented insights connecting fundamental concepts to current advances in NLP.
--  Hands-on programming exercises and real-world case studies.
--  Progressive curriculum designed to build knowledge step by step.
--  Practical examples covering multilingual NLP and machine translation.
--  Module reviews, assignments, and capstone projects to reinforce learning.
--  Suitable for self-study, university courses, professional training, and research preparation.
+Each stage builds on ideas introduced earlier.
 
 ---
 
 ## Learning Outcomes
 
-Upon successful completion of this course, learners will be able to:
+After completing the course, learners should be able to:
 
-### Foundations
+### Foundations and Linguistics
+- Explain the major components and historical development of NLP.
+- Analyze morphology, syntax, semantics, pragmatics, and discourse.
+- Work with corpora, annotation, and linguistic resources.
 
-- Explain the fundamental concepts of Natural Language Processing.
-- Describe the linguistic principles underlying NLP systems.
-- Understand the evolution of NLP from rule-based systems to modern Large Language Models.
+### Classical NLP
+- Build text preprocessing and normalization pipelines.
+- Implement tokenization, stemming, lemmatization, N-grams, Bag-of-Words, and TF-IDF.
+- Build classical text classification, information retrieval, topic modeling, and sequence-labeling systems.
 
-### Text Processing
+### Representation Learning
+- Explain distributional semantics.
+- Work with Word2Vec, GloVe, FastText, sentence embeddings, and document embeddings.
 
-- Clean, normalize, and preprocess textual data.
-- Implement tokenization, stemming, lemmatization, and subword tokenization techniques.
-- Build complete text preprocessing pipelines.
+### Deep Learning
+- Explain neural-network foundations for NLP.
+- Build and analyze RNN, LSTM, GRU, encoder-decoder, and attention-based models.
 
-### Classical Natural Language Processing
+### Transformers and Pretrained Models
+- Explain self-attention and Transformer encoder, decoder, and encoder-decoder architectures.
+- Use pretrained Transformer workflows.
+- Fine-tune models for classification, token classification, question answering, generation, summarization, and translation.
+- Understand parameter-efficient fine-tuning with PEFT and LoRA.
 
-- Extract meaningful textual features.
-- Apply Bag-of-Words and TF-IDF representations.
-- Develop text classification systems using traditional machine learning algorithms.
-- Perform topic modeling and information extraction.
-
-### Word Representations
-
-- Understand distributed word representations.
-- Implement Word2Vec, GloVe, and FastText models.
-- Compare static and contextual embeddings.
-
-### Deep Learning for NLP
-
-- Build neural language processing models using recurrent neural networks.
-- Understand sequence modeling with RNNs, LSTMs, and GRUs.
-- Explain and implement attention mechanisms.
-
-### Transformers and Large Language Models
-
-- Understand the Transformer architecture.
-- Fine-tune pretrained Transformer models.
-- Utilize the Hugging Face ecosystem for modern NLP workflows.
-- Develop applications using Large Language Models.
-- Understand Retrieval-Augmented Generation (RAG) concepts and workflows.
+### Large Language Models
+- Explain LLM scaling, instruction tuning, prompting, structured outputs, and in-context learning.
+- Build and evaluate RAG pipelines.
+- Understand hallucination, reliability, tool use, agents, and multimodal LLM foundations.
 
 ### Machine Translation
+- Explain statistical, neural, and Transformer-based machine translation.
+- Analyze Arabic-English translation challenges involving morphology, tokenization, and diacritization.
+- Evaluate translation systems using multiple automatic and statistical methods.
+- Design reproducible MT experiments.
 
-- Explain statistical and neural machine translation.
-- Evaluate translation systems using modern evaluation metrics.
-- Build multilingual translation workflows using state-of-the-art models.
-
-### Practical Skills
-
-- Design complete NLP pipelines.
-- Evaluate NLP systems using appropriate performance metrics.
-- Apply NLP techniques to real-world datasets and applications.
-- Develop modern NLP solutions using industry-standard tools and libraries.
+### Advanced NLP Applications
+- Build advanced retrieval and reranking pipelines.
+- Implement extractive and faithfulness-aware summarization workflows.
+- Build evidence-grounded question answering.
+- Design task-oriented dialogue systems with state and memory.
+- Understand multimodal NLP, OCR-aware reasoning, and document intelligence.
+- Integrate multiple NLP components into an end-to-end intelligent assistant.
 
 ---
 
 ## Target Audience
 
-This course is intended for learners who wish to develop a strong understanding of modern Natural Language Processing, whether their primary goal is academic study, research, or professional development.
+This course is suitable for:
 
-It is particularly suitable for:
-
-- Undergraduate and graduate students studying Artificial Intelligence, Computer Science, Data Science, or related disciplines.
-- University instructors seeking structured teaching materials.
-- Researchers entering the fields of NLP, Machine Translation, or Large Language Models.
+- Undergraduate and graduate students in AI, Computer Science, Data Science, or related fields.
+- University instructors seeking structured teaching material.
+- Researchers entering NLP, machine translation, multilingual NLP, or LLM research.
 - Machine Learning engineers expanding into language technologies.
-- Software developers interested in intelligent text processing.
-- AI practitioners building production-ready NLP applications.
-- Self-learners seeking a structured, project-based learning experience.
+- Software developers building intelligent text systems.
+- Self-learners seeking a complete progression from fundamentals to modern NLP.
 
-No prior knowledge of Natural Language Processing is assumed.
+No prior NLP knowledge is assumed.
 
 ---
 
 ## Prerequisites
 
-To gain the maximum benefit from this course, learners should have:
-
 ### Required
-
-- Basic Python programming skills.
-- Familiarity with programming concepts such as variables, functions, loops, and object-oriented programming.
-- Basic understanding of high school mathematics.
+- Basic Python programming.
+- Familiarity with variables, functions, loops, classes, and standard data structures.
+- Basic secondary-school mathematics.
 
 ### Recommended
-
-- Introductory knowledge of Machine Learning.
+- Introductory Machine Learning.
 - Basic Linear Algebra.
 - Elementary Probability and Statistics.
-- Familiarity with Jupyter Notebook.
-
-Learners without a Machine Learning background can still complete most of the course. However, reviewing introductory ML concepts before studying the later modules on deep learning and Transformers is recommended.
-
----
+- Familiarity with Jupyter Notebook or JupyterLab.
 
 ---
 
 # Course Curriculum
 
-The course is organized into ten progressive modules, guiding learners from the fundamentals of Natural Language Processing to modern Large Language Models and advanced NLP applications.
-
-| Module | Title | Topics Covered |
-|---------|-------|----------------|
-| **Module 1** | Foundations of Natural Language Processing | Introduction to NLP, history, applications, NLP pipeline, Python ecosystem |
-| **Module 2** | Linguistic Foundations | Morphology, syntax, semantics, pragmatics, discourse, linguistic resources |
-| **Module 3** | Classical Natural Language Processing | Text preprocessing, tokenization, stemming, lemmatization, Bag-of-Words, TF-IDF, N-grams, text classification |
-| **Module 4** | Word Representations | Word embeddings, Word2Vec, GloVe, FastText, contextual embeddings |
-| **Module 5** | Deep Learning for NLP | Neural language models, RNN, LSTM, GRU, sequence-to-sequence models, attention mechanisms |
-| **Module 6** | Transformer Architectures | Self-attention, positional encoding, encoder-decoder architecture, BERT, GPT, T5 |
-| **Module 7** | Hugging Face Ecosystem | Transformers library, Datasets, Tokenizers, Pipelines, fine-tuning, model deployment |
-| **Module 8** | Large Language Models | Prompt engineering, instruction tuning, parameter-efficient fine-tuning (PEFT), Retrieval-Augmented Generation (RAG), AI safety and evaluation |
-| **Module 9** | Machine Translation | Statistical MT, Neural MT, multilingual models, translation evaluation metrics, practical translation systems |
-| **Module 10** | Advanced NLP Applications | Information extraction, summarization, question answering, conversational AI, multimodal NLP, deployment, and current research trends |
+| Module | Lessons | Title | Main Topics |
+|---|---:|---|---|
+| 1 | 1–4 | Foundations of NLP | Introduction, history, NLP pipeline, Python ecosystem |
+| 2 | 5–10 | Linguistic Foundations | Morphology, syntax, semantics, pragmatics, discourse, linguistic resources |
+| 3 | 11–20 | Classical NLP | Preprocessing, tokenization, stemming, lemmatization, N-grams, TF-IDF, classification, IR, topic modeling, sequence labeling, capstone |
+| 4 | 21–25 | Word Embeddings | Distributional semantics, Word2Vec, GloVe, FastText, pretrained embeddings, sentence/document embeddings |
+| 5 | 26–30 | Deep Learning for NLP | Neural foundations, RNN, LSTM, GRU, seq2seq, attention |
+| 6 | 31–34 | Transformer Architectures | Self-attention, encoder models, decoder models, encoder-decoder models |
+| 7 | 35–42 | Hugging Face and Fine-Tuning | Pretrained workflows, classification, token classification, QA, generation, summarization, translation, PEFT/LoRA |
+| 8 | 43–50 | Large Language Models | LLM foundations, prompting, RAG, advanced RAG, evaluation, agents, multimodal LLMs, capstone |
+| 9 | 51–56 | Machine Translation | SMT, NMT, multilingual Transformers, Arabic-English MT, evaluation, end-to-end MT project |
+| 10 | 57–62 | Advanced NLP Applications | Advanced IR, summarization, QA, dialogue systems, multimodal NLP, final intelligent document assistant |
 
 ---
 
-# Learning Roadmap
+# Complete 62-Lesson Index
 
-The curriculum follows a progressive learning path in which each module builds upon the knowledge acquired in the previous one.
+## Module 1 — Foundations of NLP
+Folder: [`notebooks/Module_01_Foundations/`](notebooks/Module_01_Foundations/)
 
-```text
-Python Programming
-        │
-        ▼
-Foundations of NLP
-        │
-        ▼
-Linguistic Foundations
-        │
-        ▼
-Classical NLP
-        │
-        ▼
-Word Embeddings
-        │
-        ▼
-Deep Learning
-        │
-        ▼
-Transformers
-        │
-        ▼
-Hugging Face Ecosystem
-        │
-        ▼
-Large Language Models
-        │
-        ▼
-Machine Translation
-        │
-        ▼
-Advanced NLP Applications
-```
+1. Introduction to Natural Language Processing  
+2. History and Evolution of NLP  
+3. NLP Pipeline  
+4. Python Ecosystem for NLP  
 
-Each module contains:
+## Module 2 — Linguistic Foundations
+Folder: [`notebooks/Module_02_Linguistics/`](notebooks/Module_02_Linguistics/)
 
--  Conceptual explanations
--  Mathematical foundations (where appropriate)
--  Executable Python implementations
--  Visualizations and examples
--  Real-world case studies
--  Exercises
--  Challenge exercises
--  Further reading and references
+5. Language Structure and Linguistic Levels for NLP  
+6. Morphology and Word Formation for NLP  
+7. Syntax and Sentence Structure for NLP  
+8. Semantics and Meaning Representation for NLP  
+9. Pragmatics, Discourse, and Context in NLP  
+10. Linguistic Resources, Corpora, and Annotation for NLP  
 
-By the end of the course, learners will have developed both the theoretical understanding and practical experience required to design, implement, evaluate, and deploy modern Natural Language Processing systems.
+## Module 3 — Classical NLP
+Folder: [`notebooks/Module_03_Classical_NLP/`](notebooks/Module_03_Classical_NLP/)
+
+11. Text Preprocessing and Normalization  
+12. Tokenization and Sentence Segmentation  
+13. Stemming and Lemmatization in Practice  
+14. Stop Words, N-Grams, and Feature Engineering  
+15. Bag-of-Words and TF-IDF Representation  
+16. Classical Text Classification  
+17. Information Retrieval and Document Similarity  
+18. Topic Modeling with Latent Dirichlet Allocation  
+19. Sequence Labeling and Named Entity Recognition Foundations  
+20. Classical NLP End-to-End Capstone  
+
+## Module 4 — Word Embeddings
+Folder: [`notebooks/Module_04_Word_Embeddings/`](notebooks/Module_04_Word_Embeddings/)
+
+21. Distributional Semantics and Word Embedding Foundations  
+22. Word2Vec: Skip-Gram and CBOW  
+23. GloVe, FastText, and Subword-Aware Embeddings  
+24. Pretrained Embeddings and Embedding-Based Text Classification  
+25. Sentence and Document Embeddings  
+
+## Module 5 — Deep Learning for NLP
+Folder: [`notebooks/Module_05_Deep_Learning/`](notebooks/Module_05_Deep_Learning/)
+
+26. Neural Network Foundations for NLP  
+27. Recurrent Neural Networks for Sequence Modeling  
+28. LSTM and GRU Networks for Long-Range Dependencies  
+29. Sequence-to-Sequence Learning with Encoder-Decoder Networks  
+30. Attention Mechanisms for Neural Sequence Models  
+
+## Module 6 — Transformer Architectures
+Folder: [`notebooks/Module_06_Transformers/`](notebooks/Module_06_Transformers/)
+
+31. Self-Attention and Transformer Architecture Foundations  
+32. Transformer Encoder Models and Contextual Embeddings  
+33. Transformer Decoder Models and Autoregressive Language Modeling  
+34. Transformer Encoder-Decoder Models for Conditional Generation  
+
+## Module 7 — Hugging Face and Fine-Tuning
+Folder: [`notebooks/Module_07_Hugging_Face/`](notebooks/Module_07_Hugging_Face/)
+
+35. Pretrained Transformer Models and Hugging Face Workflows  
+36. Fine-Tuning Pretrained Transformers for Text Classification  
+37. Token Classification with Pretrained Transformers  
+38. Question Answering with Pretrained Transformers  
+39. Text Generation with Pretrained Language Models  
+40. Text Summarization with Pretrained Encoder-Decoder Models  
+41. Machine Translation with Pretrained Multilingual Transformers  
+42. Parameter-Efficient Fine-Tuning with PEFT and LoRA  
+
+## Module 8 — Large Language Models
+Folder: [`notebooks/Module_08_LLMs/`](notebooks/Module_08_LLMs/)
+
+43. Large Language Model Foundations, Scaling, and Instruction Tuning  
+44. Prompt Engineering, In-Context Learning, and Structured Outputs  
+45. Retrieval-Augmented Generation Foundations and Vector Search  
+46. Advanced RAG: Dense Embeddings, Reranking, and Retrieval Evaluation  
+47. LLM Evaluation, Hallucination, and Reliability  
+48. LLM Agents, Tool Use, and Function Calling  
+49. Multimodal Large Language Models and Vision-Language Foundations  
+50. LLM Course Capstone: End-to-End Intelligent NLP Application  
+
+## Module 9 — Machine Translation
+Folder: [`notebooks/Module_09_Machine_Translation/`](notebooks/Module_09_Machine_Translation/)
+
+51. Statistical Machine Translation  
+52. Neural Machine Translation with Encoder-Decoder Networks and Attention  
+53. Transformer-Based Machine Translation and Pretrained Multilingual Models  
+54. Arabic-English Machine Translation: Morphology, Tokenization, and Diacritization  
+55. Machine Translation Evaluation: BLEU, chrF, COMET, Semantic Similarity, and Statistical Significance  
+56. Machine Translation End-to-End Project: Data Preparation, Fine-Tuning, Evaluation, and Experiment Reporting  
+
+## Module 10 — Advanced NLP Applications
+Folder: [`notebooks/Module_10_Advanced_Applications/`](notebooks/Module_10_Advanced_Applications/)
+
+57. Advanced Information Retrieval: Neural Retrieval, Re-Ranking, and Production Search Pipelines  
+58. Advanced Text Summarization: Extractive, Abstractive, Long-Document, and Faithfulness-Aware Summarization  
+59. Advanced Question Answering: Extractive, Generative, Retrieval-Augmented, and Evidence-Grounded QA  
+60. Conversational AI and Dialogue Systems: Intent, State Tracking, Response Generation, Memory, and Evaluation  
+61. Advanced Multimodal NLP: Vision-Language Models, Document Understanding, OCR-Aware Reasoning, and Multimodal Retrieval  
+62. Final End-to-End Intelligent Document Assistant Capstone: Retrieval, QA, Summarization, Multimodal Reasoning, Evaluation, and Deployment  
 
 ---
 
 # Repository Structure
-
-The repository is organized to provide a clean, modular, and scalable learning experience.
 
 ```text
 Natural-Language-Processing-Course/
 │
 ├── notebooks/
 │   ├── Module_01_Foundations/
-│   ├── Module_02_Linguistic_Foundations/
+│   ├── Module_02_Linguistics/
 │   ├── Module_03_Classical_NLP/
-│   ├── Module_04_Word_Representations/
+│   ├── Module_04_Word_Embeddings/
 │   ├── Module_05_Deep_Learning/
 │   ├── Module_06_Transformers/
 │   ├── Module_07_Hugging_Face/
-│   ├── Module_08_Large_Language_Models/
+│   ├── Module_08_LLMs/
 │   ├── Module_09_Machine_Translation/
 │   └── Module_10_Advanced_Applications/
 │
 ├── datasets/
-│   ├── raw/
-│   ├── processed/
-│   └── external/
-│
 ├── figures/
-│
 ├── assets/
-│
 ├── projects/
-│
-├── solutions/
-│
 ├── requirements.txt
 ├── LICENSE
+├── CITATION.cff
 ├── README.md
 └── .gitignore
 ```
 
-Each module contains lecture notebooks, exercises, and supporting materials. Additional resources such as datasets, figures, and project files are organized separately to maintain a clean and scalable repository structure.
+Exercises remain inside the educational notebooks. The public repository does not include a separate answer-key or solutions directory.
 
 ---
 
@@ -324,24 +330,37 @@ Each module contains lecture notebooks, exercises, and supporting materials. Add
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/Natural-Language-Processing-Course.git
-
+git clone https://github.com/emansafwatm/Natural-Language-Processing-Course.git
 cd Natural-Language-Processing-Course
 ```
 
-Install the required Python packages:
+Create a virtual environment.
 
-```bash
+### Windows PowerShell
+
+```powershell
+py -3.10 -m venv NLP_inv
+.\NLP_inv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Launch Jupyter Notebook:
+### Linux / macOS
+
+```bash
+python3.10 -m venv NLP_inv
+source NLP_inv/bin/activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+Launch Jupyter:
 
 ```bash
 jupyter notebook
 ```
 
-or launch JupyterLab:
+or:
 
 ```bash
 jupyter lab
@@ -351,34 +370,30 @@ jupyter lab
 
 # Recommended Environment
 
-The course has been developed using modern Python tools and is compatible with Windows, Linux, and macOS.
+## Reference Environment
 
-### Recommended Software
+**Python 3.10 is the recommended reference version for the course.**
 
-- Python 3.10 or later
-- Jupyter Notebook or JupyterLab
-- Visual Studio Code (recommended)
-- Git
-- GitHub
+Newer Python versions may work for many lessons, but compatibility is not guaranteed uniformly across all optional NLP, evaluation, and pretrained-model libraries.
 
-### Recommended Hardware
+## Hardware
 
-Minimum:
+For most foundational and classical lessons:
 
-- Dual-core CPU
-- 8 GB RAM
+- Modern dual-core or quad-core CPU
+- 8 GB RAM minimum
+- 16 GB RAM recommended
 
-Recommended:
+For deeper neural, pretrained Transformer, LLM, or multimodal experiments:
 
-- Quad-core CPU or better
-- 16 GB RAM
-- NVIDIA GPU (optional for deep learning modules)
+- A CUDA-capable NVIDIA GPU is helpful but not required for the core educational path.
+- GPU memory requirements depend on the selected model and fine-tuning method.
 
 ---
 
-# Required Python Libraries
+# Dependencies and Model Downloads
 
-The course primarily relies on the following libraries:
+The course uses libraries such as:
 
 - NumPy
 - Pandas
@@ -394,86 +409,151 @@ The course primarily relies on the following libraries:
 - Evaluate
 - Accelerate
 - PEFT
-- Jupyter Notebook
+- Jupyter
 
-Additional libraries may be introduced in specific modules as needed.
+Install the repository requirements with:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Offline vs Downloaded Models
+
+Many notebooks use small local examples and CPU-compatible implementations for teaching and validation.
+
+Some advanced sections demonstrate pretrained models from external model hubs. These optional workflows may require:
+
+- internet access for the initial model/checkpoint download;
+- additional packages;
+- more memory;
+- GPU acceleration for practical training or inference speed.
+
+Where such models are optional, the notebook should clearly separate the downloadable workflow from the offline core demonstration.
 
 ---
 
 # How to Use This Course
 
-The course is designed to be completed sequentially, with each module building on concepts introduced earlier.
+The recommended path is sequential.
 
-For every lesson, learners are encouraged to:
+For each lesson:
 
-1. Read the theoretical explanation.
-2. Study the accompanying visualizations.
-3. Execute each notebook cell.
-4. Experiment with the provided examples.
-5. Complete the exercises.
-6. Attempt the challenge problems.
-7. Explore the recommended references before moving to the next lesson.
+1. Read the conceptual explanation.
+2. Run the notebook from top to bottom.
+3. Inspect intermediate outputs and visualizations.
+4. Modify examples and parameters.
+5. Complete the knowledge check.
+6. Attempt the unsolved exercises.
+7. Attempt the challenge exercises.
+8. Review the cited references.
+9. Continue to the next lesson.
 
-Although learners may focus on specific topics of interest, following the recommended module order provides the strongest conceptual foundation.
+Learners with prior experience may jump directly to a later module, but the course is designed so later material builds on earlier concepts.
 
 ---
 
-# Course Projects
+# Course Projects and Capstones
 
-Throughout the course, learners will apply the acquired knowledge by developing practical NLP systems of increasing complexity. These projects are designed to reinforce theoretical concepts while providing hands-on experience with real-world Natural Language Processing applications.
+The course includes increasingly integrated practical work, including:
 
-Example projects include:
+- classical NLP pipelines;
+- text classification;
+- information retrieval;
+- topic modeling;
+- named entity recognition;
+- sequence-to-sequence systems;
+- pretrained Transformer applications;
+- RAG;
+- LLM evaluation;
+- agents and tool use;
+- multimodal NLP;
+- machine translation;
+- advanced retrieval;
+- summarization;
+- question answering;
+- dialogue systems;
+- intelligent document processing.
 
-- Text preprocessing pipeline
-- Spam email classifier
-- Sentiment analysis system
-- Named Entity Recognition (NER)
-- Text summarization
-- Question answering
-- Machine translation
-- Semantic similarity analysis
-- Document classification
-- Conversational AI chatbot
-- Retrieval-Augmented Generation (RAG) application
-- Large Language Model (LLM) fine-tuning
+Major capstones include:
 
-Additional capstone projects will be introduced throughout the course.
+- **Lesson 20:** Classical NLP End-to-End Capstone
+- **Lesson 50:** LLM End-to-End Intelligent NLP Application
+- **Lesson 56:** Machine Translation End-to-End Project
+- **Lesson 62:** Final Intelligent Document Assistant Capstone
+
+---
+
+# Reproducibility and Execution Notes
+
+The course favors reproducible educational experiments.
+
+Where applicable, notebooks use:
+
+- fixed random seeds;
+- explicit evaluation metrics;
+- error analysis;
+- train/dev/test separation;
+- CPU-compatible baseline implementations;
+- clearly separated optional model downloads;
+- experiment summaries and reproducibility notes.
+
+For research use, learners should additionally record:
+
+- package versions;
+- model checkpoint names;
+- dataset versions;
+- hardware;
+- training configuration;
+- random seeds;
+- evaluation scripts;
+- preprocessing decisions.
 
 ---
 
 # Contributing
 
-Contributions are welcome and appreciated.
+Contributions are welcome.
 
-If you would like to improve the course by fixing errors, enhancing explanations, adding examples, improving notebooks, or contributing new educational content, please feel free to:
+Examples include:
+
+- fixing errors;
+- improving explanations;
+- adding references;
+- improving reproducibility;
+- adding carefully scoped examples;
+- improving multilingual coverage;
+- reporting broken dependencies or outdated APIs.
+
+Suggested workflow:
 
 1. Fork the repository.
-2. Create a new feature branch.
-3. Commit your changes.
-4. Submit a Pull Request.
+2. Create a feature branch.
+3. Make and test the change.
+4. Commit with a descriptive message.
+5. Submit a Pull Request.
 
-Please ensure that contributions maintain the educational focus, coding style, and overall quality of the course.
+Please preserve the course's sequential organization and educational focus.
 
 ---
 
 # References
 
-The course draws upon established textbooks, research publications, official documentation, and educational resources, including but not limited to:
+The course draws on established textbooks, research papers, and official documentation, including:
 
 - Jurafsky, D., & Martin, J. H. *Speech and Language Processing*.
 - Eisenstein, J. *Introduction to Natural Language Processing*.
-- Manning, C. D., Schütze, H. *Foundations of Statistical Natural Language Processing*.
+- Manning, C. D., & Schütze, H. *Foundations of Statistical Natural Language Processing*.
 - Goodfellow, I., Bengio, Y., & Courville, A. *Deep Learning*.
 - Vaswani, A., et al. *Attention Is All You Need*.
-- Official documentation for PyTorch, Hugging Face Transformers, spaCy, NLTK, and Scikit-learn.
+- Official documentation for PyTorch, Hugging Face, spaCy, NLTK, and Scikit-learn.
 
-Additional references are provided throughout individual modules.
+Additional references are provided inside individual notebooks.
 
 ---
 
 # Citation
 
-If you use this repository in your research, teaching, or educational materials, please consider citing it.
+If you use this course in research, teaching, training, or educational material, please cite the repository.
 
 ```bibtex
 @misc{Khater2026NLP,
@@ -485,60 +565,57 @@ If you use this repository in your research, teaching, or educational materials,
 }
 ```
 
+The repository also includes `CITATION.cff` for GitHub-compatible citation metadata.
+
 ---
 
 # License
 
-This project is released under the MIT License.
+This project is released under the **MIT License**.
 
-You are free to use, modify, and distribute the course materials for educational and research purposes in accordance with the terms of the license.
+See [`LICENSE`](LICENSE) for the complete terms.
 
 ---
 
-# Roadmap
+# Possible Future Extensions
 
-The course will continue to evolve with new modules, notebooks, projects, and examples.
+The core 62-lesson course is complete. Future additions, if developed, should extend the existing curriculum rather than duplicate material already covered.
 
-Planned future additions include:
+Possible extensions include:
 
-- Advanced Retrieval-Augmented Generation (RAG)
-- AI Agents and Tool Use
-- Multimodal Large Language Models
 - Knowledge Graphs for NLP
-- Speech Processing
+- Speech and Spoken Language Processing
 - Model Compression and Quantization
 - Efficient LLM Inference
 - Distributed Training
-- AI Safety and Alignment
-- Evaluation Benchmarks for Foundation Models
+- Deeper AI Alignment and Preference Optimization
+- Foundation-Model Evaluation Benchmarks
+- Advanced Long-Context Architectures
+- Production NLP/MLOps case studies
 
 ---
 
 # Acknowledgments
 
-This course has been developed as an open educational resource to support students, educators, researchers, and practitioners interested in Natural Language Processing and Artificial Intelligence.
+This course was developed as an open educational resource for students, educators, researchers, engineers, and practitioners interested in Natural Language Processing and Artificial Intelligence.
 
-Special thanks to the open-source community and the developers of the Python ecosystem, whose libraries, frameworks, datasets, and research contributions have made modern NLP education and innovation widely accessible.
-
----
-
-##  Support the Project
-
-If you find this repository useful, please consider:
-
--   Starring the repository
--  Forking the project
--   Reporting issues
--   Suggesting improvements
--   Contributing new educational content
-
-Your support helps improve the course and makes high-quality NLP education more accessible to the community.
+Special thanks to the open-source community and to the researchers and developers whose libraries, datasets, models, and publications make modern NLP education possible.
 
 ---
 
-# Happy Learning!
+## Support the Project
 
-*"The limits of my language mean the limits of my world."*  
-— **Ludwig Wittgenstein**
+If this repository is useful to you, you can support it by:
 
-We hope this course inspires you to explore, build, and innovate in the exciting field of Natural Language Processing.
+- starring the repository;
+- reporting issues;
+- suggesting improvements;
+- contributing educational enhancements;
+- sharing it with learners and instructors.
+
+---
+
+# Happy Learning
+
+> “The limits of my language mean the limits of my world.”  
+> — Ludwig Wittgenstein
